@@ -60,6 +60,7 @@ sysinfo.txt
 *.aab
 *.unitypackage
 *.app
+**/libburst-llvm-16.dylib
 
 # Crashlytics generated file
 crashlytics-build.properties
