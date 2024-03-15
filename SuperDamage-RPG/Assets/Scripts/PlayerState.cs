@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq.Expressions;
 using UnityEditor.AnimatedValues;
 using UnityEngine;
 
@@ -11,7 +12,7 @@ public class PlayerState
     protected float xInput;
     protected float stateTimer;
     protected float yInput;
-
+    protected bool triggerCalled;
 
     private string animBoolName;
 
@@ -25,6 +26,7 @@ public class PlayerState
     public virtual void Enter(){
         player.anim.SetBool(animBoolName,true);
         rb = player.rb;
+        triggerCalled = false;
     }
     public virtual void Update(){
         xInput = Input.GetAxisRaw("Horizontal");
@@ -39,7 +41,9 @@ public class PlayerState
     }
 
 
-
+    public virtual void AnimationFinishTrigger(){
+        triggerCalled = true;
+    }
 
 
 

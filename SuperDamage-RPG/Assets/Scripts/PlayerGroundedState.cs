@@ -30,7 +30,10 @@ public class PlayerGroundedState : PlayerState
             stateMachine.ChangeState(player.airState);
         }
         
-        
+        if(Input.GetKeyDown(KeyCode.Mouse0)){
+            stateMachine.ChangeState(player.primaryAttack);
+            player.SetVelocity(0,0);
+        }
     }
 
 
