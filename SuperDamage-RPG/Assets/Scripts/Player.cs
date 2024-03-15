@@ -25,6 +25,8 @@ public class Player : MonoBehaviour
     [SerializeField] private float wallCheckDistance;
     [SerializeField] private LayerMask whatIsGround;
 
+    public bool isBusy { get; private set; }
+
     //**************FORFLIP**************
     public int facingDir { get; private set; } = 1;
     private bool facingRight = true;
@@ -77,7 +79,9 @@ public class Player : MonoBehaviour
     {
         stateMachine.currentState.Update();
         checkForDashInput(); // we put it in player because we need it to be always available
-        //its an excepion based on how we want our game to work
+                             //its an excepion based on how we want our game to work
+
+
 
 
     }
@@ -91,6 +95,16 @@ public class Player : MonoBehaviour
 
 
     }
+    //**************CORUTINE**************
+
+    public IEnumerator BusyFor(float _seconds)
+    {
+        yield return new WaitForSeconds(_seconds);
+        isBusy = false;
+    }
+
+
+
     //**************LAMBDA CONTROLL**************
 
     public bool IsGroundDetected() => Physics2D.Raycast(groundCheck.position, Vector2.down, groundCheckDistance, whatIsGround);

@@ -4,7 +4,7 @@ using System.Linq.Expressions;
 using UnityEditor.AnimatedValues;
 using UnityEngine;
 
-public class PlayerState 
+public class PlayerState
 {
     protected PlayerStateMachine stateMachine;
     protected Player player;
@@ -23,12 +23,14 @@ public class PlayerState
         this.animBoolName = _animBoolName;
     }
 
-    public virtual void Enter(){
-        player.anim.SetBool(animBoolName,true);
+    public virtual void Enter()
+    {
+        player.anim.SetBool(animBoolName, true);
         rb = player.rb;
         triggerCalled = false;
     }
-    public virtual void Update(){
+    public virtual void Update()
+    {
         xInput = Input.GetAxisRaw("Horizontal");
         yInput = Input.GetAxisRaw("Vertical");
         player.anim.SetFloat("yVelocity", rb.velocity.y);
@@ -36,12 +38,14 @@ public class PlayerState
         stateTimer -= Time.deltaTime;
     }
 
-    public virtual void Exit(){
-        player.anim.SetBool(animBoolName,false);
+    public virtual void Exit()
+    {
+        player.anim.SetBool(animBoolName, false);
     }
 
 
-    public virtual void AnimationFinishTrigger(){
+    public virtual void AnimationFinishTrigger()
+    {
         triggerCalled = true;
     }
 
