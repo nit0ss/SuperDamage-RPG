@@ -58,7 +58,7 @@ public class Entity : MonoBehaviour
 
     //**************FLIP CONTROL**************
 
-    public void Flip()
+    public virtual void Flip()
     {
         facingDir = -facingDir;
         facingRight = !facingRight;
