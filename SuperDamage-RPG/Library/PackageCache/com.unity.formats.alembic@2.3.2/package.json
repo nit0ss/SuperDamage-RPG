@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "com.unity.timeline": "1.0.0",
+    "com.unity.modules.unityanalytics": "1.0.0",
+    "com.unity.modules.cloth": "1.0.0"
+  },
+  "description": "Import and export Alembic files (.abc), record and stream animations in the Alembic format directly in Unity.\nNOTE: Supported build platforms: only Windows 64, MacOS X, Linux 64, and Stadia.\n\nThe Alembic format is commonly used in animation to transfer facial, cloth, and other simulation between applications in the form of baked data.",
+  "displayName": "Alembic",
+  "keywords": [
+    "alembic",
+    "abc",
+    "animation",
+    "facial",
+    "cloth",
+    "simulation"
+  ],
+  "name": "com.unity.formats.alembic",
+  "unity": "2019.4",
+  "version": "2.3.2",
+  "relatedPackages": {
+    "com.unity.formats.alembic.tests": "2.3.2"
+  },
+  "_upm": {
+    "changelog": "### Added\n- At import, additional data is added to GameObject cameras to conform with URP or HDRP rendering pipelines.\n\n### Fixed\n- Fixed an issue where a mesh from an Alembic file with visibility samples gets wrongly serialized in scenes.\n- Fixed the Normals import settings of the Importer.\n- When a user changes HDRP quality settings, the Editor no longer re-imports Alembic assets."
+  },
+  "upmCi": {
+    "footprint": "64e8236cf0960d661e1acd8a9eb331c419514cd6"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.formats.alembic@2.3/manual/index.html",
+  "repository": {
+    "url": "https://github.com/Unity-Technologies/com.unity.formats.alembic.git",
+    "type": "git",
+    "revision": "7a5ae5f5959a395d8fa04ca724a202f124a7dad7"
+  }
+}

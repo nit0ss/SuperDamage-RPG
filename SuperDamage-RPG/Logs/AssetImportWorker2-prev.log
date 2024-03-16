@@ -1,0 +1,1291 @@
+Unity Editor version:    2022.3.20f1 (61c2feb0970d)
+Branch:                  2022.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.2 (Build 23C64)
+Darwin version:          23.2.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+/Users/nito/Documents/GitHub/SuperDamage-RPG/SuperDamage-RPG
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+62657
+Successfully changed project path to: /Users/nito/Documents/GitHub/SuperDamage-RPG/SuperDamage-RPG
+/Users/nito/Documents/GitHub/SuperDamage-RPG/SuperDamage-RPG
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8037650432] Host "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 3099377565 [EditorId] 3099377565 [Version] 1048832 [Id] OSXEditor(0,MacBook-Air-de-Cristian.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8037650432] Host "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 3099377565 [EditorId] 3099377565 [Version] 1048832 [Id] OSXEditor(0,MacBook-Air-de-Cristian.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 14.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.20f1 (61c2feb0970d)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/nito/Documents/GitHub/SuperDamage-RPG/SuperDamage-RPG/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M2 (high power)
+Metal devices available: 1
+0: Apple M2 (high power)
+Using device Apple M2 (high power)
+Initializing Metal device caps: Apple M2
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56187
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.20f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.004197 seconds.
+- Loaded All Assemblies, in  0.365 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.248 seconds
+Domain Reload Profiling: 614ms
+	BeginReloadAssembly (112ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (156ms)
+		LoadAssemblies (111ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (153ms)
+			TypeCache.Refresh (151ms)
+				TypeCache.ScanAssembly (133ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (248ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (191ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (132ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.732 seconds
+Refreshing native plugins compatible for Editor in 3.05 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.617 seconds
+Domain Reload Profiling: 1352ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (504ms)
+		LoadAssemblies (326ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (235ms)
+			TypeCache.Refresh (211ms)
+				TypeCache.ScanAssembly (174ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (617ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (455ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (351ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.37 seconds
+Refreshing native plugins compatible for Editor in 1.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4036 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (198.3 KB). Loaded Objects now: 4491.
+Memory consumption went from 150.7 MB to 150.5 MB.
+Total: 7.383333 ms (FindLiveObjects: 0.347084 ms CreateObjectMapping: 0.285041 ms MarkObjects: 6.149917 ms  DeleteObjects: 0.600875 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PlayerWallJump.cs: d476a80cf2f7fe2407a3004e0b58124b -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 113958.844554 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/ceiling_corner_left.png
+  artifactKey: Guid(4e49ce01b36a98e4ab7543a6a5d46b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/ceiling_corner_left.png using Guid(4e49ce01b36a98e4ab7543a6a5d46b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc4ac77e06cccce70749f8c757d2591') in 0.114111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_wood_carpet_transition_2.png
+  artifactKey: Guid(61c6ffbf4ec10284ca8b666a9112bf45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_wood_carpet_transition_2.png using Guid(61c6ffbf4ec10284ca8b666a9112bf45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa11d47fbd9111631bf90d20cd0ba4f') in 0.006359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/column_5.png
+  artifactKey: Guid(9766537c54c445c48af63db6a8b9639a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/column_5.png using Guid(9766537c54c445c48af63db6a8b9639a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1887a74002bbbfe9b5aea07005f42468') in 0.006364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_1.png
+  artifactKey: Guid(7f1c70acd3a44df4594d7d5a99659736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_1.png using Guid(7f1c70acd3a44df4594d7d5a99659736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daba0bd3dca286aa768d92d79e89f7ed') in 0.008596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_5.png
+  artifactKey: Guid(10cbcf6de1e5d944e9ec5c7eca828155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_5.png using Guid(10cbcf6de1e5d944e9ec5c7eca828155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1e0478bdb0f9a70f004de14dd3a9a1') in 0.005096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000567 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_12.png
+  artifactKey: Guid(7e60f51a7eb7e2e4bb9a21821727daf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_12.png using Guid(7e60f51a7eb7e2e4bb9a21821727daf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b5342789b637b569ff5f6b0841c633') in 0.006274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000480 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/column_2.png
+  artifactKey: Guid(563d1250740862745a66adf4a4a27a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/column_2.png using Guid(563d1250740862745a66adf4a4a27a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5851b58eccad2d6e632f3100abfc85') in 0.006776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_carpet_corner_left.png
+  artifactKey: Guid(bac35cba8c5bbb9478ef9d60d40c74c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_carpet_corner_left.png using Guid(bac35cba8c5bbb9478ef9d60d40c74c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea02bdd85f3db6409e7fa9a1f1ee0c3') in 0.004774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_carpet_4.png
+  artifactKey: Guid(838e285c495df804797a20a6d6d966fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_carpet_4.png using Guid(838e285c495df804797a20a6d6d966fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac54d7c3679fff4b839ff84989a13f3') in 0.004465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000550 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_carpet_corner_right.png
+  artifactKey: Guid(09d057c432179ab418c91313ce991ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_carpet_corner_right.png using Guid(09d057c432179ab418c91313ce991ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c180732373c94a9afc80ccf33100255') in 0.010056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_5.png
+  artifactKey: Guid(734cff3d334c21d4fb05bde8ecd88af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_5.png using Guid(734cff3d334c21d4fb05bde8ecd88af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f54d20f0435927ad8e2111dec6dc66') in 0.007069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_carpet_transition_2.png
+  artifactKey: Guid(073bbe473b3236b4093ae67caa1fdc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_carpet_transition_2.png using Guid(073bbe473b3236b4093ae67caa1fdc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ecd18a5b0c9420adfe120a1638ca9f6') in 0.006241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/arch_1.png
+  artifactKey: Guid(4e2da48b5e1016949bda3d6c29a82d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/arch_1.png using Guid(4e2da48b5e1016949bda3d6c29a82d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8158ac44b41ea9b74a0e2c7b0e5b97') in 0.006447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/damaged_brick_1.png
+  artifactKey: Guid(3ecc26890627ff64eaf8f2d4c1ebb6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/damaged_brick_1.png using Guid(3ecc26890627ff64eaf8f2d4c1ebb6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70947f8ec8469abcc77406e39f3b105e') in 0.004205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_10.png
+  artifactKey: Guid(e5aebf0fa27829942b58bc10749dec4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_10.png using Guid(e5aebf0fa27829942b58bc10749dec4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee129ad76146f1d302f48a6b9788b77f') in 0.004393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/platform_3.png
+  artifactKey: Guid(8264cbb342b60cc4487e86479494a5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/platform_3.png using Guid(8264cbb342b60cc4487e86479494a5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc10e5f6167c816136ac10430253097f') in 0.004520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_15.png
+  artifactKey: Guid(5f6f2b834f9bd7d44bd8eb3ef4bacb78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_15.png using Guid(5f6f2b834f9bd7d44bd8eb3ef4bacb78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '326a1ee3b99167be9cabbe9d4cbc6880') in 0.004748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_10.png
+  artifactKey: Guid(9e6c2c224003ae748b50c28deaedf011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_10.png using Guid(9e6c2c224003ae748b50c28deaedf011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3472f1cefb0967956961af4b25749cb') in 0.004094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_side_left_2.png
+  artifactKey: Guid(a26b128cf9fa2564e96985f75eb1b3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_side_left_2.png using Guid(a26b128cf9fa2564e96985f75eb1b3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '024e9db814c553db0f2de2be57fc0af0') in 0.004227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_tile_carpet_4.png
+  artifactKey: Guid(144d3d24dd4ef564793252831ec72d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_tile_carpet_4.png using Guid(144d3d24dd4ef564793252831ec72d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c511c310e6e638a08092b6562e563ef7') in 0.004212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/arch_7.png
+  artifactKey: Guid(2ff1ab1e04276884eb1de48be63d6cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/arch_7.png using Guid(2ff1ab1e04276884eb1de48be63d6cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34948f3f489f14b42fedee211dca7fe') in 0.004499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_4.png
+  artifactKey: Guid(f316485197615cc42945d983a3466e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_4.png using Guid(f316485197615cc42945d983a3466e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f95e3a8a29e353dd1e261b8765621ca') in 0.004384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/arch_4.png
+  artifactKey: Guid(f68480ff96a44bc448159a5a580fb362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/arch_4.png using Guid(f68480ff96a44bc448159a5a580fb362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c2a0c8e4f98ea2ca84e05b89a9e527') in 0.004658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles
+  artifactKey: Guid(d5ea988b1738d0b4c8cbde6bb99f989d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles using Guid(d5ea988b1738d0b4c8cbde6bb99f989d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9fbaf34a9961a6b7cb869cd0efa939') in 0.000187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_9.png
+  artifactKey: Guid(bbf9cecbeff3c7242acd0438b953ce1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_9.png using Guid(bbf9cecbeff3c7242acd0438b953ce1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a8e078831e0c04da37ad5f0e0355f1') in 0.006292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001152 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_12.png
+  artifactKey: Guid(195911c3c871b9a49a944045d6d49bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_12.png using Guid(195911c3c871b9a49a944045d6d49bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654a8674cdb45192d5e252042f615bcf') in 0.008729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000523 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_4.png
+  artifactKey: Guid(30e067ac12922c9459f43420a1a9b784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_4.png using Guid(30e067ac12922c9459f43420a1a9b784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442cb42f7503ed3292cd296108a7e602') in 0.004429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_big_6.png
+  artifactKey: Guid(4e3022ab0a03c124baf4a1ee9c5f570e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_big_6.png using Guid(4e3022ab0a03c124baf4a1ee9c5f570e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c1e0ffc7102c64c2b38deea35f6ca9') in 0.005320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_carpet_3.png
+  artifactKey: Guid(3bf14cf8d4ad48f40941b737ca5ec32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_carpet_3.png using Guid(3bf14cf8d4ad48f40941b737ca5ec32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231583c63a6cf0dc3ff20ca23039ce69') in 0.005705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_3.png
+  artifactKey: Guid(31bf658f91ee0a3448193b48f80b7503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_3.png using Guid(31bf658f91ee0a3448193b48f80b7503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ba2812cdb8b71877178480688ccd98') in 0.004992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_glass_tall_1.png
+  artifactKey: Guid(2030536263aad6843bd8ef5de4f6e746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_glass_tall_1.png using Guid(2030536263aad6843bd8ef5de4f6e746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a11d04b3ed935bd7d7dfc98106eefe17') in 0.004929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/ceiling_3.png
+  artifactKey: Guid(5cb467aafc67c8f4e9963f2054de8f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/ceiling_3.png using Guid(5cb467aafc67c8f4e9963f2054de8f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cdac1c8121c0cc41b86d5c6d43c60fe') in 0.004679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_10.png
+  artifactKey: Guid(2f207e3ad6ac13c49aa6ff7e5969f89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_10.png using Guid(2f207e3ad6ac13c49aa6ff7e5969f89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf86d49b29d72e1e5223860e4b93881') in 0.005271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_4.png
+  artifactKey: Guid(26075e6099ebb844aaf0a6405ebb02f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_4.png using Guid(26075e6099ebb844aaf0a6405ebb02f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40707954a24c823834ebc4c6806d76e5') in 0.006079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_1.png
+  artifactKey: Guid(71ee4a1119a06ef4fb0108c30f743247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_1.png using Guid(71ee4a1119a06ef4fb0108c30f743247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43811b7874034d0abc89e91d34c51a38') in 0.005178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_15.png
+  artifactKey: Guid(2581d9a46582c764498abddb9c8efccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_15.png using Guid(2581d9a46582c764498abddb9c8efccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95124bdc258f192914a69b75b9b79926') in 0.008200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_wood_carpet_3.png
+  artifactKey: Guid(69b7457373e180f4fbe7fa359a656a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_wood_carpet_3.png using Guid(69b7457373e180f4fbe7fa359a656a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e1e3ae9e56ce2d42df6a032e56fab5') in 0.008687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_6.png
+  artifactKey: Guid(57681defe31da3747a502846191f9c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_6.png using Guid(57681defe31da3747a502846191f9c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393eb501046bdbc9325faa564e4a93fd') in 0.006121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000565 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_5.png
+  artifactKey: Guid(636d43db49409984bb6c26af74278d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_5.png using Guid(636d43db49409984bb6c26af74278d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61e3a1508abbc0ba74a8d8571e33158') in 0.006162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_big_4.png
+  artifactKey: Guid(a803e9b186e1f9e489029e2e75b281ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_big_4.png using Guid(a803e9b186e1f9e489029e2e75b281ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee4fa322790502e9575ea2bc7164c6c') in 0.004793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_6.png
+  artifactKey: Guid(586cf872d1c8fb9488c2e1ff49527a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_6.png using Guid(586cf872d1c8fb9488c2e1ff49527a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd9449b709bef0a5b6181e5feaccb33') in 0.005544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/arch_3.png
+  artifactKey: Guid(31022487749cca44ba2fde5fe461abd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/arch_3.png using Guid(31022487749cca44ba2fde5fe461abd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c768409a5d155538f51e050b9e4afd70') in 0.004940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/damaged_brick_2.png
+  artifactKey: Guid(94da0f710e3e2d04fbb4d1218a34f8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/damaged_brick_2.png using Guid(94da0f710e3e2d04fbb4d1218a34f8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa7d388f98837ee9ee35b76418fc43c4') in 0.004437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/arch_6.png
+  artifactKey: Guid(667a0cfe5f65b5e41a378f8dc0fe16df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/arch_6.png using Guid(667a0cfe5f65b5e41a378f8dc0fe16df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629ddd424b7ef8fe07a8bc611874fa08') in 0.007123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_carpet_transition_1.png
+  artifactKey: Guid(9e805890de974c64aa3dd2e32a3618db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_carpet_transition_1.png using Guid(9e805890de974c64aa3dd2e32a3618db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe07f530b9fe488489d5b71bc90c180') in 0.004883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_2.png
+  artifactKey: Guid(012466a9e66c54641a0e88e0b5d4d33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_2.png using Guid(012466a9e66c54641a0e88e0b5d4d33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04555f6474ba00457067b7bb50e37c91') in 0.004108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000534 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_3.png
+  artifactKey: Guid(afdae31bc81d124438bb1f81eae6040c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_3.png using Guid(afdae31bc81d124438bb1f81eae6040c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa41e4975b88f207ac8b8655a69d6fb') in 0.005750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_wood_carpet_4.png
+  artifactKey: Guid(86d59895e6840b84cb7295e1c7ed7cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_wood_carpet_4.png using Guid(86d59895e6840b84cb7295e1c7ed7cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '067c873d07c99ce6e6dce1abacc79cda') in 0.005218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/platform_shadow.png
+  artifactKey: Guid(f2614a9e62edb374897f56c71ea00556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/platform_shadow.png using Guid(f2614a9e62edb374897f56c71ea00556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293dff521d4bc247730a4b25397e62a7') in 0.005090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_side_left_1.png
+  artifactKey: Guid(aa3862d8737be4944907802e10279e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_side_left_1.png using Guid(aa3862d8737be4944907802e10279e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e2cda530df4dd73ae56dc7dd0d5c8e') in 0.004362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/platform_4.png
+  artifactKey: Guid(3f2c973f5a4eeab4a922450edf0e4fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/platform_4.png using Guid(3f2c973f5a4eeab4a922450edf0e4fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e81673b6a22d1a64d82bb83604b303') in 0.004020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/arch_2.png
+  artifactKey: Guid(e304f0905b9817145925173225717182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/arch_2.png using Guid(e304f0905b9817145925173225717182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '572854de06235e7d2646609c6bb09f49') in 0.004410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_14.png
+  artifactKey: Guid(5e3ab61836760cd49887fc5dc9aafcda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_14.png using Guid(5e3ab61836760cd49887fc5dc9aafcda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d8d3b8c16d43ace03fec5558596663') in 0.003778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_tile_carpet_1.png
+  artifactKey: Guid(712e04ee666109b4c95196222d1cd5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_tile_carpet_1.png using Guid(712e04ee666109b4c95196222d1cd5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b51cb37459615ed603e7bcf1513450d') in 0.004877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_big_2.png
+  artifactKey: Guid(c2766a89a431b95418d630f5d8296400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_big_2.png using Guid(c2766a89a431b95418d630f5d8296400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ace3d99af5cead04ba546a8791c56b') in 0.008564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_side_right_1.png
+  artifactKey: Guid(25ca45251f4632e479d3b2ca748eac76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_side_right_1.png using Guid(25ca45251f4632e479d3b2ca748eac76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '493681dc6d34c43b857ec5e4a412115b') in 0.005696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/column_6.png
+  artifactKey: Guid(5188f6b3dbd3d8b44a3dd95b3c2580cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/column_6.png using Guid(5188f6b3dbd3d8b44a3dd95b3c2580cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7949bec1bf2ef836a4226cb3d4abf652') in 0.006128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_big_5.png
+  artifactKey: Guid(84a154988fd18bf419241ccacb7417d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/window_big_5.png using Guid(84a154988fd18bf419241ccacb7417d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898a5774c74951545f19456be3cf66b6') in 0.005815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_6.png
+  artifactKey: Guid(743064e3458dfdc40b25b4335d18c5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_6.png using Guid(743064e3458dfdc40b25b4335d18c5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a85c818830f74819cf001fa439541e0') in 0.004846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/column_7.png
+  artifactKey: Guid(59096f70d9fbf9b4bbb3d4344fdf3aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/column_7.png using Guid(59096f70d9fbf9b4bbb3d4344fdf3aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed24b76cad9a21b21c86ff4de821d95a') in 0.006205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_2.png
+  artifactKey: Guid(1e9c76bb3db07ba4b8a626a9bda93021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_2.png using Guid(1e9c76bb3db07ba4b8a626a9bda93021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d727d018cec885126af0c30ed7a3f0') in 0.005558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_carpet_corner_right.png
+  artifactKey: Guid(a20a063dcf71dda499e2dbe79c1dcc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_carpet_corner_right.png using Guid(a20a063dcf71dda499e2dbe79c1dcc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd13680e2dbe7b5f0d178c87d83d111') in 0.004696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_carpet_3.png
+  artifactKey: Guid(34fe723aaf53f1c449c1111a81106b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_carpet_3.png using Guid(34fe723aaf53f1c449c1111a81106b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1416f634ec1a9b074aac723e5b59f10f') in 0.005089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_7.png
+  artifactKey: Guid(dcaf597846903e54b91fde9ac0beef4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_7.png using Guid(dcaf597846903e54b91fde9ac0beef4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '122aeb430177a06e0f0e4cb41d63f65c') in 0.006282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001985 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_2.png
+  artifactKey: Guid(4be2c34154b4b20429143bf5a0400d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_2.png using Guid(4be2c34154b4b20429143bf5a0400d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4faa5ce053806af59c5dd5f2147ad6') in 0.010046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_11.png
+  artifactKey: Guid(f3bee91161a72cb4fb40565ffee19c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_11.png using Guid(f3bee91161a72cb4fb40565ffee19c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2491252a64cbfff2b097832d915f04') in 0.006386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_tile_carpet_3.png
+  artifactKey: Guid(c13ee4f2cfcb672419481974d412dc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_tile_carpet_3.png using Guid(c13ee4f2cfcb672419481974d412dc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a08fbe204838ac8dca600eaa12d954ae') in 0.007707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/ceiling_transparent_1.png
+  artifactKey: Guid(f988be5154c920346953251be2b309d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/ceiling_transparent_1.png using Guid(f988be5154c920346953251be2b309d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '878009437301004f3e863af41ce3dc25') in 0.005216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_8.png
+  artifactKey: Guid(33b6f47b14f904e48b546823a34a98ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_8.png using Guid(33b6f47b14f904e48b546823a34a98ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3898dbbdd7490ee92bf7ba40e0cbaf0') in 0.005516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_wood_carpet_transition_1.png
+  artifactKey: Guid(63899952d16801348a1883f8cb1fd45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_wood_carpet_transition_1.png using Guid(63899952d16801348a1883f8cb1fd45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4ee2b4cf5ca4b803ad354f93108def') in 0.005895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_11.png
+  artifactKey: Guid(7b3151e2a733f87459083bc8d47f49e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_11.png using Guid(7b3151e2a733f87459083bc8d47f49e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a003d0b98f5765634299f14834b35523') in 0.005966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/damaged_brick_3.png
+  artifactKey: Guid(b9f4667dd135ffb41bdaa37f4af99a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/damaged_brick_3.png using Guid(b9f4667dd135ffb41bdaa37f4af99a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ca91e165214dd69b795e103c41fb54') in 0.005723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_side_right_2.png
+  artifactKey: Guid(170e0f16a361a9f42ab79ac66a0b0b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_side_right_2.png using Guid(170e0f16a361a9f42ab79ac66a0b0b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1807a1949f755db32a590b1b3226d9fa') in 0.005520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_17.png
+  artifactKey: Guid(0f491d38c2652ec4d9a5b12d04ce685e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_17.png using Guid(0f491d38c2652ec4d9a5b12d04ce685e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9896a78bac5bf713f113c4cb51092279') in 0.008247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/column_4.png
+  artifactKey: Guid(a74e7db62a1363949b5015c4779759d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/column_4.png using Guid(a74e7db62a1363949b5015c4779759d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2834b91618592ea5ca58928fae7dc23b') in 0.004760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/column_1.png
+  artifactKey: Guid(dbd55f869feae2249a4bd1a408a0d275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/column_1.png using Guid(dbd55f869feae2249a4bd1a408a0d275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f51cb59d2f3c8cd8a83873c94990160') in 0.004488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/platform_2.png
+  artifactKey: Guid(47984579255a14f4187499e8cd718346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/platform_2.png using Guid(47984579255a14f4187499e8cd718346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb54ef9041d906130051a5c238b18621') in 0.004364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/tile_side_right.png
+  artifactKey: Guid(90d10d4ec25a7e54f9becdea0c8dfef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/tile_side_right.png using Guid(90d10d4ec25a7e54f9becdea0c8dfef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a92ec52eab54a7970954e95c81f1a0') in 0.005198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_12.png
+  artifactKey: Guid(cfd815d94d108c043a65641ac099daf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_12.png using Guid(cfd815d94d108c043a65641ac099daf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e526e3e9cff92cc5ac9eb9ad3d765eda') in 0.004720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/column_3.png
+  artifactKey: Guid(6f96e51e35b1f5843add46383d9ea0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/column_3.png using Guid(6f96e51e35b1f5843add46383d9ea0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f103fe36853a50031bff0aaa889f9a') in 0.004985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_2.png
+  artifactKey: Guid(b6964c0e0dc1ba84c8cfb275f3ca3071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_2.png using Guid(b6964c0e0dc1ba84c8cfb275f3ca3071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e9d2708eade7f11bfa84eacf215876') in 0.005023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_wood_transition_2.png
+  artifactKey: Guid(d3e6e897b9988194191f7e5c0aa1f3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_wood_transition_2.png using Guid(d3e6e897b9988194191f7e5c0aa1f3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '480948d1c70dd3d67c6b83ede9c16a2a') in 0.007448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_tile_3.png
+  artifactKey: Guid(a69dfd6837e47f54297b68b9cb21a738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_tile_3.png using Guid(a69dfd6837e47f54297b68b9cb21a738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b253aa0efa6aac16b06c8c0324876b8') in 0.009159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000639 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/spikes.png
+  artifactKey: Guid(d59ae7618ef4d6d4db94191beb72bb4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/spikes.png using Guid(d59ae7618ef4d6d4db94191beb72bb4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5461e871867b6506c103a45d8500477') in 0.006359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_18.png
+  artifactKey: Guid(9323070afcf6e4b468d5784b7f7c3d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_18.png using Guid(9323070afcf6e4b468d5784b7f7c3d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b535bf26bdb234c79be464175a5fdf') in 0.005779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_tile_2.png
+  artifactKey: Guid(cf9f2c27f2f7383459c02f19e52d39f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_tile_2.png using Guid(cf9f2c27f2f7383459c02f19e52d39f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75a30c149e970978596d12529641379') in 0.004814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_wood_carpet_2.png
+  artifactKey: Guid(58c0cce462cd37e40a6109f634f63653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_wood_carpet_2.png using Guid(58c0cce462cd37e40a6109f634f63653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2483a66f9b2d5c5e4332dd39e8a47900') in 0.005339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_carpet_1.png
+  artifactKey: Guid(7365dce33644f064e8c1bff7c058cf2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_tile_carpet_1.png using Guid(7365dce33644f064e8c1bff7c058cf2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9621bdc735ed9e5d4da8a1a243b63edd') in 0.005093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/platform_wall_connection_left.png
+  artifactKey: Guid(30badb793e820c644accc11e19696f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/platform_wall_connection_left.png using Guid(30badb793e820c644accc11e19696f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9db4d57e32ec4e57a6ee98cbfb2300') in 0.005010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_16.png
+  artifactKey: Guid(d7b76aea606fc8042b2a65c95575c7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_16.png using Guid(d7b76aea606fc8042b2a65c95575c7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8c2e0ca704ad5426426ca8164f794d') in 0.006404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002349 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_wood_1.png
+  artifactKey: Guid(69413864cdebab24981ba2c6877aedcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_wood_1.png using Guid(69413864cdebab24981ba2c6877aedcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2e918448a704eec4dfd769347a46a9') in 0.010548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/ceiling_4.png
+  artifactKey: Guid(5f63243b766321d49a1712958eeb6832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/ceiling_4.png using Guid(5f63243b766321d49a1712958eeb6832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ebfe03915524615c81219f372677140') in 0.006227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_7.png
+  artifactKey: Guid(98a452a7bd35cb14ebf5498a7905a505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_7.png using Guid(98a452a7bd35cb14ebf5498a7905a505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcd0b0377f7859e0d4761fbd4e16efa8') in 0.006995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_carpet_1.png
+  artifactKey: Guid(1d49ea0bb4e92f64ea7d550b0b5b40c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_carpet_1.png using Guid(1d49ea0bb4e92f64ea7d550b0b5b40c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b3d082dd47579d42d88e283bd75d60') in 0.005273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/ceiling_1.png
+  artifactKey: Guid(a3036aee198b81844b0cd72f1d750767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/ceiling_1.png using Guid(a3036aee198b81844b0cd72f1d750767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df2bcd5f934d414a7cc8544e79d9b87') in 0.004917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_14.png
+  artifactKey: Guid(27a25f5948ee593419ccf3e45cfaea6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/wall_14.png using Guid(27a25f5948ee593419ccf3e45cfaea6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00d472706384abb607aafdd639ea11e') in 0.007360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_corner_left.png
+  artifactKey: Guid(bbb3f82ac9f6fda4683faf12e2d73d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/floor_wood_corner_left.png using Guid(bbb3f82ac9f6fda4683faf12e2d73d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4f45df89bdf867404d8be88cfbbecb') in 0.016056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/merlons_3.png
+  artifactKey: Guid(842630091d3f800468dc265605bcefe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/merlons_3.png using Guid(842630091d3f800468dc265605bcefe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873f36ecd2c08c613f9aa0b65525934c') in 0.008615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001201 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_wood_3.png
+  artifactKey: Guid(5cc12d9812a5d024c841c0cfd0d8d4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/stairs_wood_3.png using Guid(5cc12d9812a5d024c841c0cfd0d8d4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7105b1ed0be2c2e111b86be2233a8562') in 0.007958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/merlons_2.png
+  artifactKey: Guid(14cbdc0474fdf5042992e199b73e4b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/merlons_2.png using Guid(14cbdc0474fdf5042992e199b73e4b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f44c10d6d4725458c3209234c259d3') in 0.006972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 300.857393 seconds.
+  path: Assets/Tile Palette/Tile Set.prefab
+  artifactKey: Guid(ff4e461e942e64b2e9dd77c2c1ed74e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palette/Tile Set.prefab using Guid(ff4e461e942e64b2e9dd77c2c1ed74e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4cfab250fb9a60163b5451aa93f2f9') in 0.703607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 481
+========================================================================
+Received Import Request.
+  Time since last request: 81.949609 seconds.
+  path: Assets/Tile Palette/Tile Set.prefab
+  artifactKey: Guid(9a87f69eeb97f7c468ad6c48409715a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palette/Tile Set.prefab using Guid(9a87f69eeb97f7c468ad6c48409715a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09e5bd3c304423fce43029e0e00b721') in 0.172322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 224
+========================================================================
+Received Import Request.
+  Time since last request: 1249.842774 seconds.
+  path: Assets/Tile Palette/Tile Palette.prefab
+  artifactKey: Guid(614734f201b854aeead94fcad56c4e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palette/Tile Palette.prefab using Guid(614734f201b854aeead94fcad56c4e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679a79f7541a06793438eaf6a2fb80af') in 0.067604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 279.206704 seconds.
+  path: Assets/Tile Palette
+  artifactKey: Guid(b0bb03d03f13840ee88c3904af860919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palette using Guid(b0bb03d03f13840ee88c3904af860919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e15ed2974ea3a671a84b8c7bf3ca229') in 0.001996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.060153 seconds.
+  path: Assets/Tile Palette/Tile Palette.prefab
+  artifactKey: Guid(614734f201b854aeead94fcad56c4e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palette/Tile Palette.prefab using Guid(614734f201b854aeead94fcad56c4e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '872138916d778de613de007620ba1166') in 0.031483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 3.627371 seconds.
+  path: Assets/Materials/materialphysics.physicsMaterial2D
+  artifactKey: Guid(d3cdc07d950cf4b8aa24b79d7e334eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/materialphysics.physicsMaterial2D using Guid(d3cdc07d950cf4b8aa24b79d7e334eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f61e70e54adb0fe502bcb346bd1858cf') in 0.002389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 8.421135 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6f629246aebfa4d9a96af97d219f9cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6f629246aebfa4d9a96af97d219f9cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b6e5030d4d5cfdad85ea0a36cd4974') in 0.001150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 269.916411 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/arch_7.asset
+  artifactKey: Guid(15eef2585850a4cabb5e3e69ce8649ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/arch_7.asset using Guid(15eef2585850a4cabb5e3e69ce8649ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffda7f56ca18e709a48664a7ad4a3423') in 0.316954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 17.321605 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/blank.asset
+  artifactKey: Guid(4ed9a4ba5c5f643b185a3a24440a2bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/blank.asset using Guid(4ed9a4ba5c5f643b185a3a24440a2bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac055d6a3f437e1eb437e060da8cd817') in 0.055739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 260.910724 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_side_right_1.asset
+  artifactKey: Guid(8771098c6931e40d9a11722ac373fd0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/brick_side_right_1.asset using Guid(8771098c6931e40d9a11722ac373fd0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3655188746504b21a8e93c49acd0e4d0') in 0.049946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1329.075072 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_4.asset
+  artifactKey: Guid(af64e929731e144ce8378c0c92d13462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/lion_column_4.asset using Guid(af64e929731e144ce8378c0c92d13462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d25d9490f8ea2ed13bb740166de1c0e') in 0.085128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 182.349439 seconds.
+  path: Assets/Graphics/Surroundings/Medieval_Castle/Tiles/platform_wall_connection_right.asset
+  artifactKey: Guid(9c5aebdf19b1c43cbabdffc2e122bc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Surroundings/Medieval_Castle/Tiles/platform_wall_connection_right.asset using Guid(9c5aebdf19b1c43cbabdffc2e122bc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79db42889957198459a17f413e2c2556') in 0.053979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x292487000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.468 seconds
+Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.092 seconds
+Domain Reload Profiling: 1561ms
+	BeginReloadAssembly (162ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (230ms)
+		LoadAssemblies (268ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1093ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (429ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (318ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4030 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (176.3 KB). Loaded Objects now: 4775.
+Memory consumption went from 159.6 MB to 159.5 MB.
+Total: 5.423542 ms (FindLiveObjects: 0.371792 ms CreateObjectMapping: 0.112875 ms MarkObjects: 4.748167 ms  DeleteObjects: 0.190250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PlayerWallJump.cs: d476a80cf2f7fe2407a3004e0b58124b -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x281187000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.492 seconds
+Refreshing native plugins compatible for Editor in 3.05 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.267 seconds
+Domain Reload Profiling: 1759ms
+	BeginReloadAssembly (142ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (271ms)
+		LoadAssemblies (297ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1267ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (443ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (335ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 4.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4031 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (176.3 KB). Loaded Objects now: 4779.
+Memory consumption went from 167.3 MB to 167.1 MB.
+Total: 8.484958 ms (FindLiveObjects: 0.877334 ms CreateObjectMapping: 0.281750 ms MarkObjects: 7.039416 ms  DeleteObjects: 0.285084 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PlayerWallJump.cs: d476a80cf2f7fe2407a3004e0b58124b -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16da27000 may have been prematurely finalized
+- Loaded All Assemblies, in  1.172 seconds
+Refreshing native plugins compatible for Editor in 2.79 ms, found 4 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.520 seconds
+Domain Reload Profiling: 3693ms
+	BeginReloadAssembly (436ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (28ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (189ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (596ms)
+		LoadAssemblies (634ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (131ms)
+			TypeCache.Refresh (78ms)
+				TypeCache.ScanAssembly (33ms)
+			ScanForSourceGeneratedMonoScriptInfo (36ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (2521ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1224ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (164ms)
+			ProcessInitializeOnLoadAttributes (926ms)
+			ProcessInitializeOnLoadMethodAttributes (110ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (32ms)
+Refreshing native plugins compatible for Editor in 9.36 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4746 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (2.3 MB). Loaded Objects now: 5487.
+Memory consumption went from 195.3 MB to 193.0 MB.
+Total: 31.876292 ms (FindLiveObjects: 1.914083 ms CreateObjectMapping: 0.246833 ms MarkObjects: 26.824708 ms  DeleteObjects: 2.882875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/PlayerWallJump.cs: d476a80cf2f7fe2407a3004e0b58124b -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

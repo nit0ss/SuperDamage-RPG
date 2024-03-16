@@ -25,6 +25,10 @@ public class Player : MonoBehaviour
     [SerializeField] private float wallCheckDistance;
     [SerializeField] private LayerMask whatIsGround;
 
+    [Header("Attack details")] 
+    //CUSTOM SPEED FOR EACH ATTACK
+    public float[] attackMovement;
+
     public bool isBusy { get; private set; }
 
     //**************FORFLIP**************
@@ -45,7 +49,7 @@ public class Player : MonoBehaviour
     public PlayerDashState dashState { get; private set; }
     public PlayerWallSlideState wallSlide { get; private set; }
     public PlayerWallJumpState wallJump { get; private set; }
-    public PlayerPrimaryAttack primaryAttack { get; private set; }
+    public PlayerPrimaryAttackState primaryAttack { get; private set; }
 
 
 
@@ -60,7 +64,7 @@ public class Player : MonoBehaviour
         dashState = new PlayerDashState(this, stateMachine, "Dash");
         wallSlide = new PlayerWallSlideState(this, stateMachine, "WallSlide");
         wallJump = new PlayerWallJumpState(this, stateMachine, "WallJump");
-        primaryAttack = new PlayerPrimaryAttack(this, stateMachine, "Attack");
+        primaryAttack = new PlayerPrimaryAttackState(this, stateMachine, "Attack");
     }
 
     private void Start()
@@ -92,9 +96,8 @@ public class Player : MonoBehaviour
 
         rb.velocity = new Vector2(_xVelocity, _yVelocity);
         FlipController(_xVelocity);
-
-
     }
+    public void ZeroVelocity() => rb.velocity = new Vector2(0,0);
     //**************CORUTINE**************
 
     public IEnumerator BusyFor(float _seconds)
