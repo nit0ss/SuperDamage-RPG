@@ -61,7 +61,7 @@ sysinfo.txt
 *.unitypackage
 *.app
 **/libburst-llvm-16.dylib
-
+**/ArtifactDB
 # Crashlytics generated file
 crashlytics-build.properties
 
@@ -71,4 +71,5 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+SuperDamage-RPG/Library/ArtifactDB
 SuperDamage-RPG/Library/ArtifactDB
