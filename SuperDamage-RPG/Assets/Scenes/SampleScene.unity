@@ -132,7 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 83599954}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -579,7 +579,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 663547370}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91417,7 +91417,7 @@ GameObject:
   - component: {fileID: 957937264}
   - component: {fileID: 957937267}
   - component: {fileID: 957937266}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91748,7 +91748,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1302158777}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WallCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91764,7 +91764,7 @@ Transform:
   m_GameObject: {fileID: 1302158776}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.166, y: 0.58800006, z: 0}
+  m_LocalPosition: {x: 0.166, y: -0.156, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -91863,7 +91863,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1375231446}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WallCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92147,7 +92147,7 @@ GameObject:
   - component: {fileID: 1908024143}
   - component: {fileID: 1908024146}
   - component: {fileID: 1908024145}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Enemy_Skeleton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92175,6 +92175,9 @@ MonoBehaviour:
     m_Bits: 64
   moveSpeed: 1.5
   idleTime: 2
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!4 &1908024144
 Transform:
   m_ObjectHideFlags: 0
@@ -94850,7 +94853,7 @@ GameObject:
   - component: {fileID: 2135663381}
   - component: {fileID: 2135663383}
   - component: {fileID: 2135663382}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Animator
   m_TagString: Untagged
   m_Icon: {fileID: 0}

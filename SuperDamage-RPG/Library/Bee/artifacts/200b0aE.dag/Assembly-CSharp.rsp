@@ -390,6 +390,7 @@
 "Assets/Scripts/Enemy/EnemyState.cs"
 "Assets/Scripts/Enemy/EnemyStateMachine.cs"
 "Assets/Scripts/Enemy/Skeleton/EnemySkeleton.cs"
+"Assets/Scripts/Enemy/Skeleton/SkeletonBattleState.cs"
 "Assets/Scripts/Enemy/Skeleton/SkeletonIdleState.cs"
 "Assets/Scripts/Enemy/Skeleton/SkeletonMoveState.cs"
 "Assets/Scripts/Entity.cs"
