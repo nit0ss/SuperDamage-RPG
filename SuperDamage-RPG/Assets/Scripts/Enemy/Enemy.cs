@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Enemy : Entity
 {
-   public Rigidbody2D rb { get; private set; }
-   public Animator anim { get; private set; }
+   [Header("Move Info")]
+   public float moveSpeed;
+   public float idleTime;
 
    public EnemyStateMachine stateMachine { get; private set; }
 
@@ -22,7 +23,5 @@ public class Enemy : Entity
       
 
    }
-
-   //protected override void 
 
 }
