@@ -2,13 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SkeletonIdleState : EnemyState
-{   
-    private EnemySkeleton enemy;
-
-    public SkeletonIdleState(Enemy _enemyBase, EnemyStateMachine _stateMachine, string _animBoolName, EnemySkeleton _enemy) : base(_enemy, _stateMachine, _animBoolName)
+public class SkeletonIdleState : SkeletonGroundedState
+{
+    public SkeletonIdleState(Enemy _enemyBase, EnemyStateMachine _stateMachine, string _animBoolName, EnemySkeleton enemy) : base(_enemyBase, _stateMachine, _animBoolName, enemy)
     {
-        enemy = _enemy;
+
     }
 
     public override void Enter()
@@ -24,8 +22,11 @@ public class SkeletonIdleState : EnemyState
     {
         base.Update();
 
-        if(stateTimer < 0){
+        if (stateTimer < 0)
             stateMachine.ChangeState(enemy.moveState);
-        }
+
+
+
+
     }
 }

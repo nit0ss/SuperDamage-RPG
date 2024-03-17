@@ -28,7 +28,7 @@ public class PlayerAirState : PlayerState
         if (player.IsGroundDetected())//rb.velocity.y == 0)
             stateMachine.ChangeState(player.idleState);
 
-        if (player.IsWallDetected())
+        if (player.IsWallDetected() && rb.velocity.y < 0) //hacer wallslide solo cuando caigas
         {
             stateMachine.ChangeState(player.wallSlide);
         }

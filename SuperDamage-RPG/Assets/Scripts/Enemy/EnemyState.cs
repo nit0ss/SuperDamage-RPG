@@ -22,6 +22,7 @@ public class EnemyState
 
     public virtual void Enter(){
         triggerCalled = false;
+        rb = enemyBase.rb;
         enemyBase.anim.SetBool(animBoolName, true);
     }
     
@@ -31,6 +32,10 @@ public class EnemyState
 
     public virtual void Update(){
         stateTimer -= Time.deltaTime;
+    }
+
+    public virtual void AnimationFinishTrigger(){
+        triggerCalled = true;
     }
     
 }
