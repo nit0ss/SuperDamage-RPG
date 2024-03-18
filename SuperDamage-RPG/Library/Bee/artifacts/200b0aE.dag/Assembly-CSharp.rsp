@@ -396,6 +396,7 @@
 "Assets/Scripts/Enemy/Skeleton/SkeletonGroundedState.cs"
 "Assets/Scripts/Enemy/Skeleton/SkeletonIdleState.cs"
 "Assets/Scripts/Enemy/Skeleton/SkeletonMoveState.cs"
+"Assets/Scripts/Enemy/Skeleton/SkeletonStunState.cs"
 "Assets/Scripts/Entity.cs"
 "Assets/Scripts/EntityFX.cs"
 "Assets/Scripts/ParallaxBackground.cs"
