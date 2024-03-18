@@ -22,7 +22,8 @@ public class SkeletonBattleState : EnemyState
     public override void Enter()
     {
         base.Enter();
-        player = GameObject.Find("Player").transform; //we change it later because this takes too much resources
+
+        player = PlayerManager.instance.player.transform; //we change it later because this takes too much resources
 
 
 
@@ -30,7 +31,7 @@ public class SkeletonBattleState : EnemyState
     public override void Exit()
     {
         base.Exit();
-        
+
 
     }
     public override void Update()
@@ -60,21 +61,21 @@ public class SkeletonBattleState : EnemyState
             }
         }
 
-        
 
-// Verifica si ha pasado el cooldown antes de llamar a CheckAttackDirection
+
+        // Verifica si ha pasado el cooldown antes de llamar a CheckAttackDirection
         if (Time.time - lastDirectionCheckTime >= directionCheckCooldown)
         {
             CheckAttackDirection();
             lastDirectionCheckTime = Time.time; // Actualiza el tiempo de la última comprobación
-        }        
+        }
         enemy.SetVelocity(enemy.moveSpeed * moveDir, rb.velocity.y);
 
 
         //SO IT DOESNT CHASE US TO DEATH if hes going to fall
         if (!enemy.IsGroundDetected())
         {
-            enemy.SetZeroVelocity();
+            enemy.SetVelocity(0, rb.velocity.y);
 
         }
     }
