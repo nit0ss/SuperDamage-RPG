@@ -6,6 +6,10 @@ using UnityEngine;
 public class Entity : MonoBehaviour
 {
 
+    [Header("Knockback Info")]
+    [SerializeField] protected Vector2 knockbackDirection;
+    [SerializeField] protected float knockbackDuration;
+    protected bool isKnocked;
 
     [Header("Collision Info")]
     public Transform attackCheck;
@@ -15,21 +19,29 @@ public class Entity : MonoBehaviour
     [SerializeField] protected Transform wallCheck;
     [SerializeField] protected float wallCheckDistance;
     [SerializeField] protected LayerMask whatIsGround;
+
     //**************COMPONENTS**************
 
     public Animator anim { get; private set; }
     public Rigidbody2D rb { get; private set; }
-    public EntityFX fx{ get; private set;}
+    public EntityFX fx { get; private set; }
 
 
     //**************MOVE**************
     public void SetVelocity(float _xVelocity, float _yVelocity)
     {
+        if (isKnocked)
+            return;
+
 
         rb.velocity = new Vector2(_xVelocity, _yVelocity);
         FlipController(_xVelocity);
     }
-    public void SetZeroVelocity() => rb.velocity = new Vector2(0, 0);
+    public void SetZeroVelocity(){
+        if(isKnocked)
+            return;
+        rb.velocity = new Vector2(0, 0);
+    }
 
 
     //**************FORFLIP**************
@@ -61,6 +73,15 @@ public class Entity : MonoBehaviour
     public void Damage()
     {
         fx.StartCoroutine("FlashFX");
+        StartCoroutine(HitKnockBack());
+    }
+
+    protected virtual IEnumerator HitKnockBack()
+    {
+        isKnocked = true;
+        rb.velocity = new Vector2(knockbackDirection.x * -facingDir, knockbackDirection.y);
+        yield return new WaitForSeconds(knockbackDuration);
+        isKnocked = false;
     }
 
 

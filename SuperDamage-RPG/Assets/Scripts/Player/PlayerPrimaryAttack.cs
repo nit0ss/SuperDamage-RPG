@@ -24,15 +24,8 @@ public class PlayerPrimaryAttackState : PlayerState
         player.anim.SetInteger("ComboCounter", comboCounter);
 
 
-        //CHOOSE ATTACK DIRECTION
-        float attackDir = player.facingDir;
-        if(xInput != 0){
-            attackDir = xInput;
-        }
 
-        //CUSTOM SPEED FOR EACH ATTACK 
-        player.SetVelocity(player.attackMovement[comboCounter] * attackDir, rb.velocity.y);
-        /* We can also use comboCounter as array of vectors2 and put custom "hops" in each attack**/
+
 
 
         //COOLDOWN FOR BUSY
@@ -52,6 +45,17 @@ public class PlayerPrimaryAttackState : PlayerState
     public override void Update()
     {
         base.Update();
+
+        //CHOOSE ATTACK DIRECTION
+        float attackDir = player.facingDir;
+        if (xInput != 0)
+        {
+            attackDir = xInput;
+        }
+
+        //CUSTOM SPEED FOR EACH ATTACK 
+        player.SetVelocity(player.attackMovement[comboCounter] * attackDir, rb.velocity.y);
+        /* We can also use comboCounter as array of vectors2 and put custom "hops" in each attack**/
 
         if (stateTimer < 0)
         {
