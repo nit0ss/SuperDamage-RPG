@@ -22,7 +22,7 @@ public class Player : Entity
     [Header("Attack details")] 
     //CUSTOM SPEED FOR EACH ATTACK
     public float[] attackMovement;
-
+    public float counterAttackDuration = .2f;
     public bool isBusy { get; private set; }
 
 
@@ -38,7 +38,10 @@ public class Player : Entity
     public PlayerDashState dashState { get; private set; }
     public PlayerWallSlideState wallSlide { get; private set; }
     public PlayerWallJumpState wallJump { get; private set; }
+
     public PlayerPrimaryAttackState primaryAttack { get; private set; }
+    public PlayerCounterAttackState counterAttack { get; private set; }
+
 
 
 
@@ -54,7 +57,9 @@ public class Player : Entity
         dashState = new PlayerDashState(this, stateMachine, "Dash");
         wallSlide = new PlayerWallSlideState(this, stateMachine, "WallSlide");
         wallJump = new PlayerWallJumpState(this, stateMachine, "WallJump");
+
         primaryAttack = new PlayerPrimaryAttackState(this, stateMachine, "Attack");
+        counterAttack = new PlayerCounterAttackState(this, stateMachine, "CounterAttack");
     }
 
     protected override void Start()

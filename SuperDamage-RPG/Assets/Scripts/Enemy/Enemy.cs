@@ -6,6 +6,13 @@ using UnityEngine.UIElements;
 public class Enemy : Entity
 {
    [SerializeField] protected LayerMask whatIsPlayer;
+
+   [Header("Stunned Info")]
+   public float stunDuration;
+   public Vector2 stunDirection;
+   protected bool canBeStunned;
+   [SerializeField] protected GameObject counterImage;
+
    [Header("Move Info")]
    public float moveSpeed;
    public float idleTime;
@@ -41,10 +48,33 @@ public class Enemy : Entity
    }
 
 
+   public virtual void OpenCounterAttackWindow()
+   {
+      canBeStunned = true;
+      counterImage.SetActive(true);
+   }
+   public virtual void CloseCounterAttackWindow()
+   {
+      canBeStunned = false;
+      counterImage.SetActive(false);
+   } 
+
+   public virtual bool CanBeStunned(){
+      if(canBeStunned){
+         CloseCounterAttackWindow();
+         return true;
+      }
+      else
+      {
+         return false;
+      }
+   }
+
 
 
    //LAMBDA CONTROLS
    public virtual RaycastHit2D IsPlayerDetected() => Physics2D.Raycast(wallCheck.position, Vector2.right * facingDir, detectDistance, whatIsPlayer);
+   public virtual void AnimationFinishTrigger() => stateMachine.currentState.AnimationFinishTrigger();
 
 
 
@@ -58,7 +88,6 @@ public class Enemy : Entity
          }
       return playerDetected;   
    } */
-   public virtual void AnimationFinishTrigger() => stateMachine.currentState.AnimationFinishTrigger();
 
    
 
