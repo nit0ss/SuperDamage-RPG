@@ -56,5 +56,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "SuperDamage-RPG.sln"
+    "dotnet.defaultSolution": "SuperDamage-RPG.sln",
+    "git.ignoreLimitWarning": true
 }
