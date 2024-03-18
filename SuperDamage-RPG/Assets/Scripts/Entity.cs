@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Entity : MonoBehaviour
@@ -18,6 +19,7 @@ public class Entity : MonoBehaviour
 
     public Animator anim { get; private set; }
     public Rigidbody2D rb { get; private set; }
+    public EntityFX fx{ get; private set;}
 
 
     //**************MOVE**************
@@ -47,6 +49,8 @@ public class Entity : MonoBehaviour
 
         anim = GetComponentInChildren<Animator>();
 
+        fx = GetComponentInChildren<EntityFX>();
+
     }
     protected virtual void Update()
     {
@@ -56,7 +60,7 @@ public class Entity : MonoBehaviour
     //**************ATTACK CONTROLL**************
     public void Damage()
     {
-        Debug.Log(gameObject.name + " was damaged!");
+        fx.StartCoroutine("FlashFX");
     }
 
 

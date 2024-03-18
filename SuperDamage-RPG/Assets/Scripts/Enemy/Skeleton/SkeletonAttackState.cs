@@ -28,6 +28,7 @@ public class SkeletonAttackState : EnemyState
 
         if(triggerCalled){
             stateMachine.ChangeState(enemy.battleState);
+            
         }
     }
 }

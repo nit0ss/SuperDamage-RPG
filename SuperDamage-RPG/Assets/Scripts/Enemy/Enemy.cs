@@ -14,6 +14,7 @@ public class Enemy : Entity
    [SerializeField] public float attackCooldown;
    [SerializeField] public float detectDistance;
    [HideInInspector] public float lastTimeAttacked;
+   //[HideInInspector] public float flipCooldown = 0.25f;
    public float battleTime;
 
    public EnemyStateMachine stateMachine { get; private set; }
@@ -58,5 +59,7 @@ public class Enemy : Entity
       return playerDetected;   
    } */
    public virtual void AnimationFinishTrigger() => stateMachine.currentState.AnimationFinishTrigger();
+
+   
 
 }

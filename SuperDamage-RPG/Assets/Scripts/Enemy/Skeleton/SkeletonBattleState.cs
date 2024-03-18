@@ -8,6 +8,11 @@ public class SkeletonBattleState : EnemyState
     private Transform player;
     private EnemySkeleton enemy;
     private int moveDir;
+    private bool samePositionAsPlayer => player.position.x == enemy.transform.position.x;
+    // Variables para el cooldown
+    private float lastDirectionCheckTime = 0f;
+    private readonly float directionCheckCooldown = 0.35f; // Cooldown de 0.25 segundos
+
 
     public SkeletonBattleState(Enemy _enemyBase, EnemyStateMachine _stateMachine, string _animBoolName, EnemySkeleton enemy) : base(_enemyBase, _stateMachine, _animBoolName)
     {
@@ -17,11 +22,16 @@ public class SkeletonBattleState : EnemyState
     public override void Enter()
     {
         base.Enter();
-        player = GameObject.Find("Player").transform; //we change it later
+        player = GameObject.Find("Player").transform; //we change it later because this takes too much resources
+
+
+
     }
     public override void Exit()
     {
         base.Exit();
+        
+
     }
     public override void Update()
     {
@@ -31,7 +41,7 @@ public class SkeletonBattleState : EnemyState
             stateMachine.ChangeState(enemy.idleState);
         }*/
 
-        
+
         if (enemy.IsPlayerDetected())
         {
             stateTimer = enemy.battleTime;
@@ -43,24 +53,24 @@ public class SkeletonBattleState : EnemyState
         }
         else
         {
-            if (stateTimer < 0 || Vector2.Distance(player.transform.position, enemy.transform.position) > enemy.detectDistance)
+            if ((stateTimer < 0) || Vector2.Distance(player.transform.position, enemy.transform.position) > enemy.detectDistance)
             {
                 stateMachine.ChangeState(enemy.idleState);
 
             }
         }
 
+        
 
-        if (player.position.x > enemy.transform.position.x)
+// Verifica si ha pasado el cooldown antes de llamar a CheckAttackDirection
+        if (Time.time - lastDirectionCheckTime >= directionCheckCooldown)
         {
-            moveDir = 1;
-        }
-        else
-        {
-            moveDir = -1;
-        }
-
+            CheckAttackDirection();
+            lastDirectionCheckTime = Time.time; // Actualiza el tiempo de la última comprobación
+        }        
         enemy.SetVelocity(enemy.moveSpeed * moveDir, rb.velocity.y);
+
+
         //SO IT DOESNT CHASE US TO DEATH if hes going to fall
         if (!enemy.IsGroundDetected())
         {
@@ -77,6 +87,19 @@ public class SkeletonBattleState : EnemyState
         }
 
         else return false;
+    }
+
+    private void CheckAttackDirection()
+    {
+
+        if (player.position.x > enemy.transform.position.x && !samePositionAsPlayer)
+        {
+            moveDir = 1;
+        }
+        else if (player.position.x < enemy.transform.position.x && !samePositionAsPlayer)
+        {
+            moveDir = -1;
+        }
     }
 
 
