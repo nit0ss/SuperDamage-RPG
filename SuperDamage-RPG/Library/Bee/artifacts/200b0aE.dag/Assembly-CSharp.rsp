@@ -415,9 +415,9 @@
 "Assets/Scripts/Player/PlayerWallJumpState.cs"
 "Assets/Scripts/Player/PlayerWallSlideState.cs"
 "Assets/Scripts/PlayerManager.cs"
-"Assets/Scripts/Skills/CloneSkill.cs"
-"Assets/Scripts/Skills/CloneSkillController.cs"
-"Assets/Scripts/Skills/DashSkill.cs"
+"Assets/Scripts/Skills/CloneSkill/CloneSkill.cs"
+"Assets/Scripts/Skills/CloneSkill/CloneSkillController.cs"
+"Assets/Scripts/Skills/CloneSkill/DashSkill.cs"
 "Assets/Scripts/Skills/SkillManager.cs"
 "Assets/Scripts/Skills/Skills.cs"
 -langversion:9.0
