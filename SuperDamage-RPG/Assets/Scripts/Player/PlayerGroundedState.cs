@@ -21,8 +21,11 @@ public class PlayerGroundedState : PlayerState
     public override void Update()
     {
 
-        //JUMP FROM GROUND
         base.Update();
+        if(Input.GetKey(KeyCode.E)){
+          stateMachine.ChangeState(player.aimSword);  
+        }
+        //JUMP FROM GROUND
         if (Input.GetKeyDown(KeyCode.Space) && player.IsGroundDetected())
             stateMachine.ChangeState(player.jumpState);
 
@@ -39,6 +42,7 @@ public class PlayerGroundedState : PlayerState
         if(Input.GetKeyDown(KeyCode.Q)){
             stateMachine.ChangeState(player.counterAttack);
         }
+
     }
 
 
