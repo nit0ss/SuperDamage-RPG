@@ -386,7 +386,6 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Assets/Scripts/DashSkill.cs"
 "Assets/Scripts/Enemy/Enemy.cs"
 "Assets/Scripts/Enemy/EnemyState.cs"
 "Assets/Scripts/Enemy/EnemyStateMachine.cs"
@@ -416,8 +415,11 @@
 "Assets/Scripts/Player/PlayerWallJumpState.cs"
 "Assets/Scripts/Player/PlayerWallSlideState.cs"
 "Assets/Scripts/PlayerManager.cs"
-"Assets/Scripts/SkillManager.cs"
-"Assets/Scripts/Skills.cs"
+"Assets/Scripts/Skills/CloneSkill.cs"
+"Assets/Scripts/Skills/CloneSkillController.cs"
+"Assets/Scripts/Skills/DashSkill.cs"
+"Assets/Scripts/Skills/SkillManager.cs"
+"Assets/Scripts/Skills/Skills.cs"
 -langversion:9.0
 
 /deterministic

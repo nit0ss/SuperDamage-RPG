@@ -23,7 +23,7 @@ public class Player : Entity
     public float counterAttackDuration = .2f;
     public bool isBusy { get; private set; }
 
-
+    public SkillManager skill { get; private set;}
  
 
     //**************STATES**************
@@ -63,6 +63,7 @@ public class Player : Entity
     protected override void Start()
     {
         base.Start();
+        skill = SkillManager.instance;
         stateMachine.Initialize(idleState);
 
     }
