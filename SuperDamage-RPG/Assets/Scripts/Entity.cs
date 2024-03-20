@@ -46,7 +46,7 @@ public class Entity : MonoBehaviour
 
     //**************FORFLIP**************
     public int facingDir { get; private set; } = 1;
-    protected bool facingRight = true;
+    public bool facingRight = true;
 
 
 

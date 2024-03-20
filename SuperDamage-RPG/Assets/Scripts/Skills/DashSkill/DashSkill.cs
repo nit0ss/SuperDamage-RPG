@@ -7,6 +7,7 @@ public class DashSkill : Skills
     public override void UseSkill()
     {
         base.UseSkill();
+        
     }
 
 }

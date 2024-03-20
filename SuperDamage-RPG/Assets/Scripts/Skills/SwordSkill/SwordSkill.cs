@@ -23,11 +23,17 @@ public class SwordSkill : Skills
 
     private Vector2 finalDir;
 
+    public override void UseSkill()
+    {
+        base.UseSkill();
+    }
+
     protected override void Start()
     {
         base.Start();
         GenerateDots();
     }
+
 
 
     protected override void Update()
@@ -50,7 +56,9 @@ public class SwordSkill : Skills
         GameObject newSword = Instantiate(swordPrefab, player.transform.position, transform.rotation);
         SwordSkillController newSwordScript = newSword.GetComponent<SwordSkillController>();
 
-        newSwordScript.SetupSword(finalDir, swordGravity);
+        newSwordScript.SetupSword(finalDir, swordGravity, player);
+
+        player.AssignNewSword(newSword);
 
         DotsActive(false);
     }
@@ -88,8 +96,8 @@ public class SwordSkill : Skills
     {
 
         // Calcula la posición parabólica: posición = pos_inicial + vel_inicial*t + 0.5*gravedad*t^2
-        Vector2 position = (Vector2)player.transform.position + 
-        AimDirection().normalized * launchFornce * t 
+        Vector2 position = (Vector2)player.transform.position +
+        AimDirection().normalized * launchFornce * t
         + 0.5f * Physics2D.gravity * swordGravity * (t * t);
 
 

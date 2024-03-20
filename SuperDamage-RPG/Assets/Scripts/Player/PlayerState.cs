@@ -13,6 +13,7 @@ public class PlayerState
     protected float stateTimer;
     protected float yInput;
     protected bool triggerCalled;
+    protected bool originalFacingDirection;
 
     private string animBoolName;
 

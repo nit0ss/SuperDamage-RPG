@@ -16,6 +16,10 @@ public class CloneSkill : Skills
         newClone.GetComponent<CloneSkillController>().SetUpClone(_clonePosition,cloneDuration,canAttack);
 
     }
+        public override void UseSkill()
+    {
+        base.UseSkill();
+    }
 
 
 }

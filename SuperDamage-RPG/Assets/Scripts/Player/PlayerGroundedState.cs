@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class PlayerGroundedState : PlayerState
 {
@@ -22,9 +24,10 @@ public class PlayerGroundedState : PlayerState
     {
 
         base.Update();
-        if(Input.GetKey(KeyCode.E)){
+        if(Input.GetKey(KeyCode.E) && HasNoSword()){
           stateMachine.ChangeState(player.aimSword);  
         }
+
         //JUMP FROM GROUND
         if (Input.GetKeyDown(KeyCode.Space) && player.IsGroundDetected())
             stateMachine.ChangeState(player.jumpState);
@@ -46,6 +49,12 @@ public class PlayerGroundedState : PlayerState
     }
 
 
-
+    private bool HasNoSword(){
+        if(!player.sword){
+            return true;
+        }
+        player.sword.GetComponent<SwordSkillController>().ReturnSword();
+        return false;
+    }
 
 }

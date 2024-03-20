@@ -23,7 +23,9 @@ public class Player : Entity
     public float counterAttackDuration = .2f;
     public bool isBusy { get; private set; }
 
+    //Objects
     public SkillManager skill { get; private set;}
+    public GameObject sword;//{ get; private set;}
  
 
     //**************STATES**************
@@ -40,8 +42,10 @@ public class Player : Entity
     public PlayerPrimaryAttackState primaryAttack { get; private set; }
     public PlayerCounterAttackState counterAttack { get; private set; }
 
-    public PlayerAimSwordState aimSword;
-    public PlayerCatchSwordState catchSword;
+    public PlayerAimSwordState aimSword { get; private set; }
+    public PlayerCatchSwordState catchSword{ get; private set; }
+    
+
 
 
 
@@ -94,6 +98,17 @@ public class Player : Entity
         yield return new WaitForSeconds(_seconds);
         isBusy = false;
     }
+
+    //SWORD
+    public void AssignNewSword(GameObject _newSword){
+        sword = _newSword;
+    }
+    public void ClearTheSword(){
+        Destroy(sword);
+    }
+
+
+
     //ANIMATION CONTROL
     public virtual void AnimationTrigger() => stateMachine.currentState.AnimationFinishTrigger();
 
