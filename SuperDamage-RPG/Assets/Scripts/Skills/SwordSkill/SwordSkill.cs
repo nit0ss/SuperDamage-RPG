@@ -7,12 +7,30 @@ using UnityEngine;
 using Quaternion = UnityEngine.Quaternion;
 using Vector2 = UnityEngine.Vector2;
 
+
+public enum SwordType
+{
+    Regular,
+    Bounce,
+    Pierce,
+    Spin
+}
+
+
 public class SwordSkill : Skills
 {
+
+    public SwordType swordType = SwordType.Regular;
+
+    [Header("Bounce Info")]
+    [SerializeField] private int ammountOfBounces;
+    [SerializeField] private int bounceGravity;
+
+
     [Header("Skill info")]
     [SerializeField] private GameObject swordPrefab;
     [SerializeField] private Vector2 launchFornce;
-    [SerializeField] private float swordGravity;
+    [SerializeField] private float swordGravity; 
 
     [Header("Aim dots")]
     [SerializeField] private GameObject dotPrefab;
@@ -23,18 +41,13 @@ public class SwordSkill : Skills
 
     private Vector2 finalDir;
 
-    public override void UseSkill()
-    {
-        base.UseSkill();
-    }
+
 
     protected override void Start()
     {
         base.Start();
         GenerateDots();
     }
-
-
 
     protected override void Update()
     {
@@ -51,10 +64,21 @@ public class SwordSkill : Skills
         }
     }
 
+
+
+
     public void CreateSword()
     {
         GameObject newSword = Instantiate(swordPrefab, player.transform.position, transform.rotation);
         SwordSkillController newSwordScript = newSword.GetComponent<SwordSkillController>();
+
+        //implementar switch mas adelante
+        if (swordType == SwordType.Bounce)
+        {
+            swordGravity = bounceGravity;
+            newSwordScript.SetupBounce(true,bounceGravity,4);
+        }
+
 
         newSwordScript.SetupSword(finalDir, swordGravity, player);
 
@@ -63,6 +87,10 @@ public class SwordSkill : Skills
         DotsActive(false);
     }
 
+
+
+
+    //******************AIM******************
     public Vector2 AimDirection()
     {
         Vector2 playerPosition = player.transform.position;
